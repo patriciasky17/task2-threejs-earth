@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patricia Ho">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    
+    <title>Task 2 - Three.js</title>
+</head>
+<body>
+    <div id="markerLabel" class="hidden">
+        <button id="closeButton">X</button>
+        <div class="all-text">
+            <div class="text" id="idNum"></div>
+            <div class="text" id="magnitude"></div>
+            <div class="text" id="coordinates"></div>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.91.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.91.0/examples/js/controls/OrbitControls.js"></script>
+    <script type="module" src="globe.js"></script>
+</body>
+</html>
